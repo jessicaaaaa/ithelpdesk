@@ -1,0 +1,16 @@
+body{
+	background-color: #d6ddd6;
+
+}
+
+.navigation{
+	background-color: #fff;
+	width:25%;
+	height: 100% !important;
+}
+
+.navigation .menu-custom{
+	margin: 0px !important;
+	width:100% !important;
+	font-size:16px;
+}
