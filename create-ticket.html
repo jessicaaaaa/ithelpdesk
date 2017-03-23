@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create ticket</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-3">
+			<div class="left-nav">
+				<div class="logo">
+					<img src="iac.png">
+					<h3 class="title header-font"> IT Help Desk</h3>
+				</div>
+				<p class="bg-primary lbl-logged">Logged in as <i>Jessica Gavino</i></p>
+				<ul class="nav-links">
+					<a href=""><li>home</li></a>
+					<a href="" class="active"><li class="active">tickets</li></a>
+					<a href=""><li>reports</li></a>
+					<a href=""><li>tools</li></a>
+					<a href=""><li>logout</li></a>
+				</ul>
+			</div>
+		</div>
+
+  		<div class="col-md-9 margin-top">
+			<div class="content-box">
+			<div class="right-nav">
+  				<ul>	
+  						<a href=""><li class="active">Create</li></a>
+  						<a href=""><li>My Tickets</li></a>
+  						<a href=""><li>Available Tickets</li></a>
+  				</ul>
+  			</div>	
+				<div class="row">
+					<div class="col-md-8">
+						<label>Client's email address:</label>
+						<input type="email" class="form-control"  placeholder="Enter Email">
+					</div>
+					<div class="col-md-4">
+					<label> Room </label>
+						<select class="form-control">
+							<option>Room1</option>
+							<option>Room2</option>
+							<option>Room3</option>
+							<option>ROom4</option>
+						</select>
+					</div>
+				</div>
+				<div class="ct-reqservince">
+					<label>Requested Service</label>
+					<textarea class="form-control" rows="3"></textarea>
+				</div>
+				<button type="button" class="btn btn-primary submitreq-btn">Submit</button>
+			</div>
+				
+
+			</div>
+  		</div>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
