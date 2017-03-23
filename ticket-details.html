@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create ticket</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-3">
+			<div class="left-nav">
+				<div class="logo">
+					<img src="iac.png">
+					<h3 class="title header-font"> IT Help Desk System </h3>
+				</div>
+				<p class="bg-primary lbl-logged">Logged in as <i>Jessica Gavino</i></p>
+				<ul class="nav-links">
+					<a href=""><li>home</li></a>
+					<a href="" class="active"><li class="active">tickets</li></a>
+					<a href=""><li>reports</li></a>
+					<a href=""><li>tools</li></a>
+					<a href=""><li>logout</li></a>
+				</ul>
+			</div>
+		</div>
+
+  		<div class="col-md-9 margin-top">
+  			<div class="right-nav">
+  				<ul>	
+  						<a href=""><li class="active">Create</li></a>
+  						<a href=""><li>My Tickets</li></a>
+  						<a href=""><li>Available Tickets</li></a>
+  				</ul>
+  			</div>	
+  			<!-- <div class="ct-header header-font">
+				<h2>CREATE TICKET</h2>
+			</div> -->
+
+			<div class="content-box">
+				<div class="row">
+					<div class="col-md-6">
+						<label>Department</label>
+						<input type="text" class="form-control"  placeholder="Enter Department">
+					</div>
+					<div class="col-md-6">
+						<label>Date</label>
+						<input type="date" class="form-control">
+					</div>
+				</div>
+				<div class="ct-reqservince">
+					<label>Requested Service</label>
+					<textarea class="form-control" rows="3"></textarea>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label>Start Date</label>
+						<input type="date" class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label>Start Time</label>
+						<input type="time" class="form-control">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<label>End Date</label>
+						<input type="date" class="form-control">
+					</div>
+					<div class="col-md-6">
+						<label>End Time</label>
+						<input type="time" class="form-control">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<label>Requested by</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="col-md-4">
+						<label>Approved by</label>
+						<input type="text" class="form-control" placeholder="John Bryan Ferraro" readonly>
+					</div>
+					<div class="col-md-4">
+						<label>Received by</label>
+						<input type="text" class="form-control" placeholder="Jessica Gavino" readonly>
+					</div>
+				</div>
+				<button type="button" class="btn btn-primary submitreq-btn">Submit</button>
+
+			</div>
+  		</div>
+	</div>
+</div>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
